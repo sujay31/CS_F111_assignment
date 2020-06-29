@@ -1,0 +1,154 @@
+Global Variables
+
+1)	*str	 char	 pointer to variable storing user input
+2)	size 	 int 	stores size of "str" variable
+
+#main()
+
+3)	*fp 	FILE	 it is the file pointer to which the stream gets associated 
+4)	task 	int 	stores the choice of the user
+
+#acceptChoice()
+
+5)	choice  char	accepts the choice of the user for test editor features
+6)	val 	int 	accepts the choice to rewrite file or to add more text
+
+#writeAndSave()
+
+7)	i	 int    used for creating a loop
+
+#acceptInput()
+
+8)	buf_size  int	 stores a value to be added to increase size
+9	buf[] 	  char	 buffer to accept standard input
+10	inp[] 	  char   stores character from buffer 
+11	i 	  int 	 used for running loop
+
+#correctInput()
+
+12)	ch 	  char	 stores a character from a character array
+13)	*new_str  char	pointer to the array which stores the corrected version of entered text
+
+#moveOffsetVertical()
+
+14)	j 	 int	 used to create a loop
+
+
+#moveOffsetHorizontal()
+
+15)	j 	int	 used to create a loop
+
+#makeVerticalLine()
+
+16)	ch	 char	 stores character from a character array
+17)	i 	 int	 used to create a loop
+18)	ind 	 int	 stores index for character array
+19)	j	 int	 used to run a loop
+
+#addLine()
+
+20)	i 	int	 used to create a loop
+
+#displayFile()
+
+21)	val 	int	 accepts user's choice
+22)	buf[] 	char 	 buffer character array to accept name of text file
+
+
+#saveFile()
+
+23)	*name	 char	pointer associated to the name of the file
+
+#getName()
+
+24)	*name	 char 	 pointer associated to the name of the file
+25)	check_val int	 accepts user's choice
+
+#checkName()
+
+26)	ch 	char	 stores characters from characye=ter array
+27)	i	int 	used for running a loop
+#editByRewite()
+
+28)	*name	 char 	pointer associated to the name of the file
+
+#saveChanges()
+
+29)	val	 int	 accepts user's choice
+
+#editByAdd()
+
+30)	*name	 char 	pointer associated to the name of the file
+
+#readFromFile()
+
+31)	ch 	char	 stores character from  "fgetc(fp)"
+32)	i 	int	 used for running a loop
+
+#saveAs()
+
+33)	*name    char   pointer associated to the name of the file
+34)	buf1[]   char 	buffer array to accept text 
+35)	buf2[]	 char 	buffer array to accept text
+
+#findWordOrPattern()
+
+36)word_to_search  char  accepts the word to be searched in the file
+37)	*name 	   char  pointer associated to the name of the file
+
+#makeSearchResults()
+
+38)	i 	 int	 used for running a loop
+39)	j	 int	 stores the index value for an array 
+40)	flag	 int 	 works as a flag variable for a condition
+41)	word 	 int 	 stores the index value for an array
+
+#displaySearchResults()
+
+42)	val	 int	 accepts user's choice
+43)	buf[] 	 char 	 buffer variable to store the resulting string
+
+#compareFiles()
+
+44)*data_of_file1    char     pointer associated  to text file1
+45)*data_of_file2    char     pointer associated  to text file2
+
+#getData()
+
+46)  *name	      char    pointer associated to the name of the file
+47)  *data_of_file    char    pointer associated to text file 
+
+#deleteFile()
+
+48)	val	 int 	 accepts user's choice
+49)	conf 	 int 	 accepts choice for confirmation
+50)	*name	 char	 pointer associated to the name of the file
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+
+
+
+ 
+
+
+
