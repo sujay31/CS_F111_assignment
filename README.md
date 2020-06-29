@@ -8,7 +8,7 @@
 <h6>#########################################################</h6>
 <h1> Observing output: </h1>
 <ol>
-  1. When a.out is run, the user is taken to the home page. It asks him the choice of task to be performed:
+  i. When a.out is run, the user is taken to the home page. It asks him the choice of task to be performed:
 <ul>
     <h4>
       a. write and save a file.<br>
